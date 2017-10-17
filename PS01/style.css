@@ -1,0 +1,17 @@
+.axisRed line{
+    stroke: white;
+}
+
+.axisRed path{
+    stroke: white;
+}
+
+.axisRed text{
+    fill: white;
+}
+
+
+.axis text{
+    fill:white;
+
+}
