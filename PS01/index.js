@@ -71,8 +71,7 @@ d3.csv('./xun.csv', function(dataIn){
         .append('circle')
         .attr('class','dataPoints')
         .attr('r', 10)
-        .style("fill",'yellowgreen');
-
+        .style("fill", function(d,i) { return 'rgb(20, 20, ' + ((i * 30) + 100) + ')'});
 
     drawPoints(data2015);
 
